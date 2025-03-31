@@ -65,12 +65,12 @@ Example:
 */
 
 let score = "33abc";
-console.log(typeof score);
-console.log(typeof (score));
+// console.log(typeof score);
+// console.log(typeof (score));
 
 let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 // "33" => 33
 // "33abc" => NaN
@@ -78,7 +78,7 @@ console.log(valueInNumber);
 
 let isLogggedIn = "Prakash";
 let booleanIsLoggedIn = Boolean(isLogggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // console.log(typeof booleanIsLoggedIn);
 // 1 => true; 0 => false;
@@ -87,7 +87,49 @@ console.log(booleanIsLoggedIn);
 
 let someNumber = 33;
 let stringNumber = typeof(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 // ******************************* Operations *******************************
+
+// why conversion of STRING to NUMBER is confusion :
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+let string1 = "Prakash";
+let string2 = "Rao";
+// console.log(string1 + string2);
+
+// console.log("2" + 1 + 1); // 211 -> If either operand is a string, the + operator performs string concatenation.
+
+// console.log(2 + 1 + "1"); // 31  -> If both operands are numbers, the + operator performs numeric addition.
+
+// console.log((2 + 3) * 5 % 2); // 1
+
+// console.log(+"");   // '+' is used for conversion. 
+
+// console.log(+true); // '+' is used for conversion.
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2;
+
+// console.log(num1);
+
+// console.log(num2);
+
+// console.log(num3);
+
+let x = 100;
+console.log(x++); // 100 -> Postfix : It returns the original value of x before incrementing it. After the original value is returned, x is incremented by 1.
+console.log(x);   // 101
+console.log("----------------")
+console.log(++x); // 101 -> Prefix : It increments x by 1 first, and then returns the new value of x.
+console.log(x);   // 101
+
+// link to study :
+// https:tc39.es/ecma262/multipage/abstract-operations. 
+// html#sec-type-conversion
+ 
