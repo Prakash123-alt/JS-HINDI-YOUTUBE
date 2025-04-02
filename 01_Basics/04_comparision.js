@@ -31,19 +31,19 @@ JavaScript provides several operators to compare values, which are essential for
 */
 
 
-// console.log("2" > 1); // True
+console.log("2" > 1); // True
 
-// console.log("02" > 1); // True
+console.log("02" > 1); // True
 
-// console.log(1 > "2"); // False
+console.log(1 > "2"); // False
 
-// console.log(1 > "02"); // False
+console.log(1 > "02"); // False
 
-// console.log(null > 0); // False
+console.log(null > 0); // False
 
-// console.log(null == 0); // False
+console.log(null == 0); // False
 
-// console.log(null >= 0); // true
+console.log(null >= 0); // true
 
 console.log(undefined == 0); // False
 
